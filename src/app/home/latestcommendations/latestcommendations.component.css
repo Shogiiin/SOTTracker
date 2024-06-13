@@ -1,0 +1,72 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+}
+.latest {
+    width: 70rem;
+    padding: 4rem;
+    /* padding: 4rem 9rem 4rem 4rem; */
+
+    box-shadow: var(--sh) 0px 0px 5px;
+    border-radius: 15px;
+    
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.activity {
+    display: flex;
+    flex-direction: column;
+    padding: 0 5rem 0 0;
+}
+h1 {
+    font-size: 2.2rem;
+    width: 100%;
+    text-align: center;
+    letter-spacing: 3px;
+}
+.data {
+    margin: 0.5rem 0rem 0rem 0rem;
+}
+.data span {
+    font-size: 1rem;
+}
+h2 {
+    font-size: 1.6rem;
+}
+p {
+    font-size: 1rem;
+}
+a {
+    text-decoration: none;
+    color: var(--sp);
+}
+.a2 a {
+    color: var(--sp2);
+}
+
+.displayData {
+    width: 50%;
+    height: 2rem;
+    border-radius: 5px;
+    
+    overflow: hidden;
+    text-align: center;
+    
+    box-shadow: var(--sh) 0px 0px 5px;
+}
+.dataBar {
+    height: 100%;
+    z-index: -5;
+    background-color: #d4c29a;
+}
+.a2 .dataBar {
+    background-color: var(--sp);
+}
+hr {
+    border-color: var(--lc2);
+    margin: 0 5rem 0 0;
+}
+hr:nth-of-type(2) {
+    border-color: var(--lc);
+}

@@ -1,0 +1,26 @@
+<div class="comm-item">
+    <!-- Checkbox to complete -->
+    <!-- <input
+        type="checkbox" 
+        class="checkbox"
+        [checked]="comm.commIsComplete"
+        (click)="toggleCompleted()"
+    >  -->
+
+    <div class="texty">
+        <span>{{comm.title}}</span>
+        <p>{{comm.requirements}}</p>
+    </div>
+    <div class="rewardStuff">
+        <span>{{getRewardType()}}</span>
+        <p>{{getRewards()}}</p>
+    </div>
+    <div class="grades">
+        <span *ngIf="comm.gradeSteps.Grade_I">Grade I: {{comm.gradeSteps.Grade_I}}</span>
+        <span *ngIf="comm.gradeSteps.Grade_II">Grade II: {{comm.gradeSteps.Grade_II}}</span>
+        <span *ngIf="comm.gradeSteps.Grade_III">Grade III: {{comm.gradeSteps.Grade_III}}</span>
+        <span *ngIf="comm.gradeSteps.Grade_IV">Grade IV: {{comm.gradeSteps.Grade_IV}}</span>
+        <span *ngIf="comm.gradeSteps.Grade_V">Grade V: {{comm.gradeSteps.Grade_V}}</span>
+    </div>
+    <span class="category">{{comm.category}}</span>
+</div>

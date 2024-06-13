@@ -1,0 +1,13 @@
+<div class="wrapper">
+    {{commies[20].title}}
+    <div class="filterWrapper">
+        <comm-filter
+            [(filter)]="filter"
+        ></comm-filter>
+    </div>
+    <div class="listWrapper">
+        <comm-list
+            [commies]="commies.filter(filter)"
+        ></comm-list>
+    </div>
+</div>

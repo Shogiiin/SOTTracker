@@ -1,0 +1,32 @@
+.comm-item {
+    padding: 2rem 2rem;
+    box-shadow: var(--sh) 0px 0px 5px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+p {
+    margin-left: 0.6rem;
+    font-size: 1rem;
+    max-width: 24rem;
+}
+.texty {
+    width: 20rem;
+    display: flex;
+    flex-direction: column;
+}
+.category {
+    height: fit-content;
+    border: 1px solid transparent; 
+    box-shadow: 0 4px 2px -2px var(--lc2);
+}
+.rewardStuff {
+    width: 24rem;
+    display: flex;
+    flex-direction: column;
+}
+.grades {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

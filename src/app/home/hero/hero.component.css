@@ -1,0 +1,16 @@
+.welcomeText {
+    font-size: 8rem;
+    text-align: center;
+
+    min-height: 56vh;
+    padding-bottom: 4rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.seeThroughText {
+    background-image: linear-gradient(110deg, var(--sp), var(--sp2));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

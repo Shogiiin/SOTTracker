@@ -1,0 +1,13 @@
+.notFound {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 4rem 0rem;
+    color: white;
+}
+.wrapper {
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

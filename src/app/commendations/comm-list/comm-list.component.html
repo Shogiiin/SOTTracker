@@ -1,0 +1,12 @@
+<div *ngIf="commies.length === 0; else showItems">
+    No wishes to display.
+</div>
+<ng-template #showItems>
+<ul class="comm-list">
+    <comm-list-item
+        *ngFor="let comm of commies"
+        [comm]="comm"
+    ></comm-list-item>
+</ul>
+</ng-template>
+    
